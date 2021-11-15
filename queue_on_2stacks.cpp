@@ -68,6 +68,8 @@ int main() {
             test.front();
         else if (command == "size")
             cout << test.size() << "\n";
+        else if (command == "clear")
+            test.clear();
     }
     cout << "bye";
     return 0;
